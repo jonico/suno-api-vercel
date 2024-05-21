@@ -4,6 +4,8 @@ import { corsHeaders } from "@/lib/utils";
 
 export const dynamic = "force-dynamic";
 
+export const config = { runtime: 'experimental-edge', maxDuration: 120 };
+
 /**
  * desc
  *
