@@ -4,6 +4,8 @@ import { corsHeaders } from "@/lib/utils";
 
 export const dynamic = "force-dynamic";
 
+export const config = { runtime: 'experimental-edge', maxDuration: 120 };
+
 export async function GET(req: NextRequest) {
   if (req.method === 'GET') {
     try {
