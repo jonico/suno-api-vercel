@@ -4,6 +4,7 @@ import { corsHeaders } from "@/lib/utils";
 
 export const dynamic = "force-dynamic";
 
+export const maxDuration = 60; // This function can run for a maximum of 60 seconds
 export async function POST(req: NextRequest) {
   if (req.method === 'POST') {
     try {
