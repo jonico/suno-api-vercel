@@ -1,7 +1,7 @@
 {
   "functions": {
-    "app/api/custom_generate": {
-      "maxDuration": 60
+    "app/api/**/*": {
+      "maxDuration": 60 // All functions can run for a maximum of 60 seconds
     }
   }
 }
