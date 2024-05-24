@@ -4,7 +4,7 @@ export default function NotFound() {
   return (
     <div className="not-found-container">
       <h1>404 - Page Not Found</h1>
-      <p>Oops! The page you're looking for doesn't exist.</p>
+      <p>Oops! The page you are looking for does not exist.</p>
       <a href="/">Go back to the homepage</a>
 
       <style jsx>{`
